@@ -1,0 +1,50 @@
+body {
+	background-color: lightgrey; 
+}
+#block1{
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	position: relative; 
+	animation: motion 5s infinite;
+}
+@keyframes motion
+{
+	0%{ 
+		left: 0px; 
+		top: 0px; 
+		background-color: blue;
+		width: 200px; 
+		height : 200px;
+	}
+	25%{ 
+		left: 300px; 
+		top: 0px; 
+		background-color: yellow;
+		width:300px ;
+		height : 200px;
+	}
+	50%{
+		left:300px; 
+		top: 300px; 
+		background-color: red;
+		width: 200px;
+		height: 300px; 
+	}
+	75%{
+		left: 0px;
+		 top: 300px; 
+		 background-color: grey;
+		 width:100px; 
+		 height: 100px; 
+	}
+	100%{
+		left:0px;
+		 top:0px ; 
+		 background-color: blue ;
+		 width:200px  ;
+		 height:200px ;
+	}
+
+
+}
